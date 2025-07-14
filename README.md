@@ -1,8 +1,16 @@
 # python-Virtualenv
 
-mkdir /root/tools
-chmod +x /root/tools/setup_global_tools.sh
-/root/tools/setup_global_tools.sh
+# Buat direktori tools
+mkdir -p /root/tools
 
-piptools install -r /root/tools/requirements.txt
+# Masuk ke direktori
+cd /root/tools
+
+chmod +x setup_global_tools.sh
+
+
+Cara Install lib 
+piptools install -r /LOKASI/requirements.txt
+
+jalankan script dengan pytol
 pytol myscript.py
